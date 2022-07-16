@@ -1,0 +1,91 @@
+/* Pantalla de carga skeleton */
+
+.trending-skeleton {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 225px;
+    background-color: #ccc;
+    opacity: 50%;
+    border-radius: 8px;
+    animation: trending-skeleton 1.5s infinite;
+}
+
+.trending-skeleton:nth-child(2) {
+    animation-delay: .25s;
+}
+
+.trending-skeleton:nth-child(3) {
+    animation-delay: .45s;
+}
+
+.category-skeleton {
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 135px;
+    height: 21px;
+    background-color: #ccc;
+    opacity: 50%;
+    border-radius: 5px;
+    animation: category-skeleton 1.5s infinite;
+}
+
+.relatedMovies-skeleton {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 125px;
+    height: 187px;
+    background-color: #ccc;
+    opacity: 50%;
+    border-radius: 8px;
+    animation: trending-skeleton 1.5s infinite;
+}
+
+.relatedMovies-skeleton:nth-child(2) {
+    animation-delay: .25s;
+}
+
+.relatedMovies-skeleton:nth-child(3) {
+    animation-delay: .45s;
+}
+
+.movieDetail-title--skeleton {
+    display: inline-block;
+    margin: 0 5px 10px 0;
+    padding: 0;
+    width: 160px;
+    height: 21px;
+    background-color: #ccc;
+    opacity: 50%;
+    border-radius: 8px;
+    animation: trending-skeleton 1.5s infinite;
+}
+
+.movieDetail-description--skeleton {
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 90vw;
+    height: 21px;
+    background-color: #ccc;
+    opacity: 50%;
+    border-radius: 8px;
+    animation: trending-skeleton 1.5s infinite;
+}
+
+.movieDetail-description--skeleton:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+@keyframes trending-skeleton {
+    0% {opacity: 50%;}
+    50% {opacity: 25%;}
+    100% {opacity: 50%;}
+}
+
+@keyframes category-skeleton {
+    0% {opacity: 50%;}
+    50% {opacity: 25%;}
+    100% {opacity: 50%;}
+}
